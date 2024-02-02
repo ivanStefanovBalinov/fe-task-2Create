@@ -1,3 +1,8 @@
+@import "./header.css";
+@import "./hero.css";
+@import "./main.css";
+@import "./footer.css";
+
 :root {
   --color-primary: #243a5a;
   --color-secondary: #566c8c;
@@ -25,10 +30,5 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-}
-
-h1 {
-  color: var(--color-grey);
   font-family: var(--main-font);
-  font-weight: var(--font-weight-semiBold);
 }

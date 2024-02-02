@@ -6,6 +6,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+
+    <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" href="css/index.css" />
@@ -13,8 +17,109 @@
     <title>2Create FE Task</title>
   </head>
   <body>
-    <header><h1>Hello World</h1></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <nav class="nav-bar">
+        <div class="nav-bar-logo">
+          <img src="./assets/images/logo-header.png" alt="logo" />
+        </div>
+        <div class="navigation">
+          <ul class="navigation-list">
+            <li class="navigation-list-item">
+              <a href="/" class="navigation-list-item-link">home</a>
+            </li>
+            <li class="navigation-list-item">
+              <a href="/" class="navigation-list-item-link">link 1</a>
+            </li>
+            <li class="navigation-list-item">
+              <a href="/" class="navigation-list-item-link">link 2</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="hero">
+        <div class="hero-text-box">
+          <h1 class="hero-text-box-h1">Let's talk!</h1>
+          <p class="hero-text-box-p">
+            Have a challenge? Want to develop a new source for products or
+            services? Or simply want a new perspective from an experienced
+            veteran? Drop us a line or give us a call. Put our superior customer
+            service and speedy response time to the test. We’re ready to help.
+          </p>
+          <a href="tel:+3588888888" class="hero-text-box-btn"> call us now </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="contact-section">
+        <div class="contact-section-left-box">
+          <h2 class="contact-section-left-box-main-h">Contact</h2>
+          <p class="contact-section-left-box-p">
+            Tell us about your project and let’s create something together.
+          </p>
+          <address class="contact-section-left-box-address">
+            <div class="contact-section-left-box-address-email">
+              <span class="address-label">Email:</span>
+              <a class="address-anchor" href="mailto:contact@business.com"
+                >contact@business.com</a
+              >
+            </div>
+            <div class="contact-section-left-box-address-phone">
+              <span class="address-label">Phone:</span>
+              <a class="address-anchor" href="tel:+35955555555">555-555-555</a>
+            </div>
+          </address>
+
+          <h3 class="contact-section-left-box-h3">Working Hours</h3>
+          <h4 class="contact-section-left-box-h4">
+            mon-fri: 9:00 AM - 6:00 PM
+          </h4>
+        </div>
+        <div class="contact-section-right-box">
+          <iframe
+            src="https://www.google.com/maps/d/embed?mid=1v9-4bgoAr-qwj7IFnExFC1NX1Fg&hl=en_US&ehbc=2E312F"
+            width="680"
+            height="510"></iframe>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-row-1">
+        <div class="footer-row-1-logo-wrapper">
+          <img src="/assets/images/logo-footer.png" alt="Logo" />
+        </div>
+        <div class="footer-row-1-nav">
+          <ul class="footer-row-1-nav-list">
+            <li footer-row-1-nav-item>
+              <a href="/" class="footer-row-1-nav-anchor">Lorem Ipsum Link</a>
+            </li>
+            <li footer-row-1-nav-item>
+              <a href="/" class="footer-row-1-nav-anchor">Lorem Ipsum Link 2</a>
+            </li>
+            <li footer-row-1-nav-item>
+              <a href="/" class="footer-row-1-nav-anchor">Lorem Ipsum Link 3</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-row-2">
+        <div class="footer-row-2-copyrights">
+          <p class="footer-row-2-copyright-p">&copy; Brand name, 2022</p>
+        </div>
+        <div class="footer-row-2-socials">
+          <a href="/" class="footer-row-socials-link"
+            ><i class="fa fa-twitter" aria-hidden="true"></i
+          ></a>
+          <a href="/" class="footer-row-socials-link"
+            ><i class="fa fa-instagram" aria-hidden="true"></i
+          ></a>
+          <a href="/" class="footer-row-socials-link"
+            ><i class="fa fa-linkedin" aria-hidden="true"></i
+          ></a>
+          <a href="/" class="footer-row-socials-link"
+            ><i class="fa fa-reddit-alien" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
