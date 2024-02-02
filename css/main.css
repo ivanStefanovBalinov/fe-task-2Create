@@ -1,0 +1,69 @@
+.contact-section {
+  padding: 10.6rem 24rem;
+  display: flex;
+}
+
+.contact-section-left-box {
+  margin-top: 1.3rem;
+  flex: 0 0 50%;
+}
+
+.contact-section-left-box-main-h {
+  font-size: 4.8rem;
+  color: var(--color-primary);
+  font-weight: var(----font-weight-semiBold);
+  line-height: 5.8rem;
+}
+
+.contact-section-left-box-p,
+.contact-section-left-box-address-email,
+.contact-section-left-box-address-phone,
+.address-anchor {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  font-weight: var(----font-weight-regular);
+  color: var(--color-secondary);
+}
+
+.contact-section-left-box-address {
+  margin-top: 5rem;
+  border-bottom: 1px solid var(--color-third);
+  max-width: 30rem;
+}
+
+.contact-section-left-box-address-email {
+  margin-bottom: 0.8rem;
+}
+
+.address-label {
+  display: inline-block;
+  font-style: normal;
+  width: 6.5rem;
+}
+
+.address-anchor {
+  text-decoration: none;
+  cursor: pointer;
+  font-style: normal;
+}
+
+.contact-section-left-box-address-phone {
+  margin-bottom: 4rem;
+}
+
+.contact-section-left-box-h3 {
+  line-height: 2.9rem;
+  font-weight: var(----font-weight-semiBold);
+  font-size: 2.4rem;
+  margin-top: 4rem;
+  color: var(--color-primary);
+}
+
+.contact-section-left-box-h4 {
+  line-height: 1.9rem;
+  color: var(--color-secondary);
+  font-size: 1.6rem;
+  font-weight: var(----font-weight-regular);
+  text-transform: uppercase;
+  margin-top: 3.2rem;
+}
