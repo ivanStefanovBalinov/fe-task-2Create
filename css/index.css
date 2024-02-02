@@ -1,0 +1,34 @@
+:root {
+  --color-primary: #243a5a;
+  --color-secondary: #566c8c;
+  --color-third: #889ebe;
+  --color-white: #fff;
+  --color-grey: #4a4a4a;
+
+  --main-font: "Inter", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-semiBold: 600;
+  --font-weight-extraBolder: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+h1 {
+  color: var(--color-grey);
+  font-family: var(--main-font);
+  font-weight: var(--font-weight-semiBold);
+}
