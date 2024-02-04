@@ -4,6 +4,8 @@
   background-position: center;
   background-size: cover;
   padding: 2.2rem 24rem;
+  background-image: linear-gradient(to right, #243a5a80, #243a5a97),
+    url("../assets//images/figma-bg1.png");
 }
 
 .hero-text-box {
