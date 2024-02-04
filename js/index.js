@@ -9,5 +9,5 @@ document.addEventListener("DOMContentLoaded", function () {
   const randomIndex = Math.floor(Math.random() * backgrounds.length);
   const selectedImage = backgrounds[randomIndex];
   const heroElement = document.querySelector(".hero");
-  heroElement.style.backgroundImage = `linear-gradient(to right, #243a5a80, #243a5a97), url(../assets/images/${selectedImage})`;
+  heroElement.style.backgroundImage = `linear-gradient(to right, #243a5a80, #243a5a97), url(./assets/images/${selectedImage})`;
 });
